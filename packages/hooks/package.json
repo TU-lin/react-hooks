@@ -15,8 +15,8 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "repository": "",
-  "homepage": "",
+  "repository": "https://TU-lin.github.io/react-hooks",
+  "homepage": "https://TU-lin.github.io/react-hooks",
   "scripts": {
     "build": "gulp && webpack-cli"
   },
