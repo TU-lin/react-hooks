@@ -14,18 +14,18 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
-      - name: Lock npm Version
+      - name: Lock npm version
         uses: actions/setup-node@v3
         with:
           node-version: 18.12.0
       - name: Install and Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
         run: |
           npm i pnpm -g
-          npm run init
-          npm run build:doc
+          pnpm run init
+          pnpm run build:doc
         env:
-          NODE_OPTIONS: '--openssl-legacy-provider' 
-          # NODE_OPTIONS: '--max_old_space_size=4096'
+          # NODE_OPTIONS: '--openssl-legacy-provider' 
+          NODE_OPTIONS: '--max_old_space_size=4096'
           
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
