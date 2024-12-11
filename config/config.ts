@@ -1,7 +1,7 @@
 /*
  * @LastEditors: linxiaotong
  * @Date: 2024-12-09 06:39:38
- * @LastEditTime: 2024-12-11 21:15:31
+ * @LastEditTime: 2024-12-11 21:16:36
  * @Description:
  */
 import { menus } from './hooks';
@@ -14,7 +14,7 @@ export default {
     type: 'none',
     exclude: [],
   },
-  publicPath: 'react-hooks/',
+  publicPath: '/react-hooks/',
   history: { type: 'hash' },
   extraBabelPlugins: [
     [
