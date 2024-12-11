@@ -1,0 +1,16 @@
+{
+  "functions": [
+    {
+      "description": "在一定时间内，只允许函数执行一次。无论触发频率有多高，都会按照固定的时间间隔执行函数。",
+      "name": "useDebounce"
+    },
+    {
+      "description": "在一定时间内，如果持续触发事件，则重新计算延迟时间。简单来说，就是将多次高频率的触发\"合并\"成一次执行",
+      "name": "useThrottle"
+    },
+    {
+      "description": "用于在两个状态值间切换的 Hook。",
+      "name": "useToggle"
+    }
+  ]
+}
