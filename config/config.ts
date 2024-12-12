@@ -1,7 +1,7 @@
 /*
  * @LastEditors: linxiaotong
  * @Date: 2024-12-09 06:39:38
- * @LastEditTime: 2024-12-11 21:16:36
+ * @LastEditTime: 2024-12-12 10:47:41
  * @Description:
  */
 import { menus } from './hooks';
@@ -49,6 +49,7 @@ export default {
   navs: [
     { title: '指南', path: '/guide' },
     { title: 'Hooks', path: '/hooks' },
+    { title: 'Github', path: 'https://github.com/TU-lin/react-hooks' },
   ],
   menus: {
     '/': [
